@@ -5,7 +5,7 @@ import main.Materia.Models.Node;
 
 public class AVLTree {
     private Node root;
-
+    
     // Obtener la altura de un nodo
     private int height(Node node) {
         if (node == null)
